@@ -1,4 +1,4 @@
-JavaScript Project Boilerplate
+To Do List
 =======================
 
-Quick starter for assignments at Epicodus.
+Yay to do list!
