@@ -2,3 +2,44 @@ h1 {
   font-size: 4em;
   color: #111111;
 }
+table {
+  width: 400px;
+  background-color: red;
+}
+ul {
+  list-style-type: none;
+}
+#full-list {
+  display: none;
+}
+
+.specific-task {
+  cursor: pointer;
+  color: #0088cc;
+}
+.entry{
+  width: 200px;
+}
+.specific-task:hover {
+  text-decoration: underline;
+  background-color: gray;
+}
+form {
+  width: 500px;
+  text-align: right;
+  display: inline-block;
+}
+
+input{
+  width: 300px;
+}
+h2{
+  text-align: center;
+}
+.list {
+  display: inline;
+}
+#results {
+  width: 50%;
+  margin: 0 auto;
+}
