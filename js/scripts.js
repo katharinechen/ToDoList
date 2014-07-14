@@ -10,6 +10,7 @@ $(document).ready(function() {
 
     event.preventDefault();
 
+    $(".list").show();
     $("#results").show();
     $("#results").append("<li class='entry'><span class='specific-task'>" + newTask.task + "</span></li>");
 
@@ -26,7 +27,7 @@ $(document).ready(function() {
       $('div#buttons').html("<button type='click' id='delete-button'>Mark as Done</button><button type='click' id='hide'>Hide</button>");
 
       $("#delete-button").click(function(event) {
-        $(".specific-task").last().remove();
+        $("li").last().remove();
         $("#full-list").hide();
       });
 
